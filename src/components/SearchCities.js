@@ -24,7 +24,7 @@ class SearchCities extends Component {
         console.log("cityName before: " + cityName);
         cityName = cityName.toUpperCase();
         console.log(cityName);
-        let linkToAPI = 'http://ctp-zip-api.herokuapp.com/city/'+ cityName;
+        let linkToAPI = 'https://ctp-zip-api.herokuapp.com/city/'+ cityName;
 
         try {
             let response = await axios.get(linkToAPI);

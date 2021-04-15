@@ -21,7 +21,7 @@ class SearchZips extends Component {
 
     handleSearchClick = async () => {
         let zipName = this.state.zipCode;
-        let linkToAPI = 'http://ctp-zip-api.herokuapp.com/zip/'+ zipName;
+        let linkToAPI = 'https://ctp-zip-api.herokuapp.com/zip/'+ zipName;
 
         try {
             let response = await axios.get(linkToAPI);
