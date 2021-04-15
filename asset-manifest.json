@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/group17cause/ZipsAndStates/static/css/main.8e5b5ff7.chunk.css",
-    "main.js": "/group17cause/ZipsAndStates/static/js/main.8fe326c3.chunk.js",
-    "main.js.map": "/group17cause/ZipsAndStates/static/js/main.8fe326c3.chunk.js.map",
-    "runtime-main.js": "/group17cause/ZipsAndStates/static/js/runtime-main.b0753148.js",
-    "runtime-main.js.map": "/group17cause/ZipsAndStates/static/js/runtime-main.b0753148.js.map",
-    "static/js/2.a16402c8.chunk.js": "/group17cause/ZipsAndStates/static/js/2.a16402c8.chunk.js",
-    "static/js/2.a16402c8.chunk.js.map": "/group17cause/ZipsAndStates/static/js/2.a16402c8.chunk.js.map",
-    "static/js/3.858dd47c.chunk.js": "/group17cause/ZipsAndStates/static/js/3.858dd47c.chunk.js",
-    "static/js/3.858dd47c.chunk.js.map": "/group17cause/ZipsAndStates/static/js/3.858dd47c.chunk.js.map",
-    "index.html": "/group17cause/ZipsAndStates/index.html",
-    "static/css/main.8e5b5ff7.chunk.css.map": "/group17cause/ZipsAndStates/static/css/main.8e5b5ff7.chunk.css.map",
-    "static/js/2.a16402c8.chunk.js.LICENSE.txt": "/group17cause/ZipsAndStates/static/js/2.a16402c8.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/group17cause/ZipsAndStates/static/media/logo.6ce24c58.svg"
+    "main.css": "/ZipsAndStates/static/css/main.57b4ec3d.chunk.css",
+    "main.js": "/ZipsAndStates/static/js/main.ec533fef.chunk.js",
+    "main.js.map": "/ZipsAndStates/static/js/main.ec533fef.chunk.js.map",
+    "runtime-main.js": "/ZipsAndStates/static/js/runtime-main.60042752.js",
+    "runtime-main.js.map": "/ZipsAndStates/static/js/runtime-main.60042752.js.map",
+    "static/js/2.a16402c8.chunk.js": "/ZipsAndStates/static/js/2.a16402c8.chunk.js",
+    "static/js/2.a16402c8.chunk.js.map": "/ZipsAndStates/static/js/2.a16402c8.chunk.js.map",
+    "static/js/3.858dd47c.chunk.js": "/ZipsAndStates/static/js/3.858dd47c.chunk.js",
+    "static/js/3.858dd47c.chunk.js.map": "/ZipsAndStates/static/js/3.858dd47c.chunk.js.map",
+    "index.html": "/ZipsAndStates/index.html",
+    "static/css/main.57b4ec3d.chunk.css.map": "/ZipsAndStates/static/css/main.57b4ec3d.chunk.css.map",
+    "static/js/2.a16402c8.chunk.js.LICENSE.txt": "/ZipsAndStates/static/js/2.a16402c8.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/ZipsAndStates/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b0753148.js",
+    "static/js/runtime-main.60042752.js",
     "static/js/2.a16402c8.chunk.js",
-    "static/css/main.8e5b5ff7.chunk.css",
-    "static/js/main.8fe326c3.chunk.js"
+    "static/css/main.57b4ec3d.chunk.css",
+    "static/js/main.ec533fef.chunk.js"
   ]
 }
