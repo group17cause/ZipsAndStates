@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import {Component} from 'react';
-//import './SearchCities.css'
-//import SearchBar from './SearchBar';
 
 class SearchCities extends Component {
 	constructor(props){
@@ -30,7 +28,6 @@ class SearchCities extends Component {
             let response = await axios.get(linkToAPI);
             this.setState({apiData: response.data, found: true});
             console.log(this.state.apiData);
-           // console.log(this.state.apiData);
         } catch (error) {
             if (error.response) {
                 /*
@@ -49,12 +46,10 @@ class SearchCities extends Component {
     {
         let currData = this.state.apiData;
         let foundMatch = this.state.found;
-        //console.log("making table");
         let table = [];
         //found is false when we get 404 error
         if(!foundMatch)
         {
-         //   console.log("not found");
             table.push(<tr key={-1}><td style={{alignItems:'center', justifyContent:'center'}}>No Results</td></tr>);
             return table;
         } 
@@ -72,8 +67,6 @@ class SearchCities extends Component {
                 )
 
             ))
-            //console.log(State);
-            //console.log({state});
             return table;
         }
     } 
@@ -88,9 +81,6 @@ class SearchCities extends Component {
                 <button className="search-button" onClick={this.handleSearchClick}>Search</button>
 			</div>
 
-            <div className = "citydata">
-
-            </div>
 			<div className = "tabletime">
 	            <table id="data">
 	                <tbody>
@@ -105,4 +95,4 @@ class SearchCities extends Component {
 }
 
 
-export default SearchCities
+export default SearchCities;

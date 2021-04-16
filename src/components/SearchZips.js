@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import {Component} from 'react';
 import './SearchZips.css'
-//import SearchBar from './SearchBar';
 
 class SearchZips extends Component {
 	constructor(props){
@@ -27,7 +26,6 @@ class SearchZips extends Component {
             let response = await axios.get(linkToAPI);
             this.setState({apiData: response.data, found: true});
             console.log(this.state.apiData);
-           // console.log(this.state.apiData);
         } catch (error) {
             if (error.response) {
                 /*
@@ -46,7 +44,6 @@ class SearchZips extends Component {
     {
         let currData = this.state.apiData;
         let foundMatch = this.state.found;
-        //console.log("making table");
         let table = [];
         //found is false when we get 404 error
         if(!foundMatch)
@@ -83,9 +80,6 @@ class SearchZips extends Component {
                 <button className="search-button" onClick={this.handleSearchClick}>Search</button>
 			</div>
 
-            <div className = "zipdata">
-
-            </div>
 			<div className = "tabletime">
 	            <table id="data">
 	                <tbody>
@@ -100,4 +94,4 @@ class SearchZips extends Component {
 }
 
 
-export default SearchZips
+export default SearchZips;
